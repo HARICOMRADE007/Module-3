@@ -22,8 +22,22 @@ To write a Python program to create a tuple containing all multiples of 5 up to 
 ### PROGRAM
 
 ```
+#Reg.No: 212222060074
+#Name: Hariharan K
+#Add Your Code Here
+n = eval(input())
+a = []
+for i in range(1, n):
+    if i % 9 == 0:
+        a.append(i)
+b = tuple(a)
+print(b)
+print("Length of the tuple is", len(a))
 ```
 
 ### OUTPUT
+<img width="691" height="237" alt="image" src="https://github.com/user-attachments/assets/99f321b8-3583-41c7-925b-afbe2f3a77ee" />
+
 
 ### RESULT
+Thus the program to create a tuple of multiples of 9 up to N and print the tuple and its length has been implemented and executed successfully.
